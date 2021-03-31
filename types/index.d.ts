@@ -36,7 +36,7 @@ export type IdType = string | number;
 export type SubgroupType = IdType;
 export type DateType = Date | number | string;
 export type HeightWidthType = IdType;
-export type TimelineItemType = 'box' | 'point' | 'range' | 'background';
+export type TimelineItemType = 'box' | 'point' | 'range' | 'background' | 'rangebox';
 export type TimelineAlignType = 'auto' | 'center' | 'left' | 'right';
 export type TimelineTimeAxisScaleType = 'millisecond' | 'second' | 'minute' | 'hour' |
   'weekday' | 'day' | 'month' | 'year';

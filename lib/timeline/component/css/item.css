@@ -50,6 +50,12 @@
   box-sizing: border-box;
 }
 
+.vis-item.vis-rangebox {
+  border-style: solid;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
 .vis-item.vis-background {
   border: none;
   background-color: rgba(213, 221, 246, 0.4);
