@@ -238,7 +238,7 @@ export type TimelineOptionsCluster = {
   showStipes?: boolean;
   fitOnDoubleClick?: boolean;
 };
-export type TimelineOptionsEventType = 'box' | 'point' | 'range' | 'background';
+export type TimelineOptionsEventType = 'box' | 'point' | 'range' | 'background' | 'rangebox';
 export type TimelineOptionsZoomKey = '' | 'altKey' | 'ctrlKey' | 'shiftKey' | 'metaKey';
 
 export interface TimelineOptions {
