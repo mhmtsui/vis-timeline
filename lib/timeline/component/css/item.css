@@ -82,6 +82,11 @@
   display: inline-block;
 }
 
+.vis-item.vis-rangebox .vis-item-content {
+  position: relative;
+  display: inline-block;
+}
+
 .vis-item.vis-background .vis-item-content {
   position: absolute;
   display: inline-block;
@@ -197,6 +202,35 @@
 
 .vis-range.vis-item.vis-readonly .vis-drag-left,
 .vis-range.vis-item.vis-readonly .vis-drag-right {
+  cursor: auto;
+}
+
+.vis-item.vis-rangebox .vis-drag-left {
+  position: absolute;
+  width: 24px;
+  max-width: 20%;
+  min-width: 2px;
+  height: 100%;
+  top: 0;
+  left: -4px;
+
+  cursor: w-resize;
+}
+
+.vis-item.vis-rangebox .vis-drag-right {
+  position: absolute;
+  width: 24px;
+  max-width: 20%;
+  min-width: 2px;
+  height: 100%;
+  top: 0;
+  right: -4px;
+
+  cursor: e-resize;
+}
+
+.vis-rangebox.vis-item.vis-readonly .vis-drag-left,
+.vis-rangebox.vis-item.vis-readonly .vis-drag-right {
   cursor: auto;
 }
 
